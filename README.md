@@ -4,3 +4,10 @@
 - AbdelMagid Mohamed (Email: abdelmagidmohamed89@yahoo.com)
 - Amr Atef (Email: )
 - Mohammed Mohammed Farouk (Email: mohammed84farouk@gmail.com)
+# build instructions
+```cmake
+mkdir build
+cd build
+cmake ..
+make
+```
