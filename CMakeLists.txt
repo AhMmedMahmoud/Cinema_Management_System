@@ -25,6 +25,11 @@ add_library(
    User.cpp 
    RegularUser.hpp
    VipUser.hpp
+   RegularSeat.h
+   PremiumSeat.h
+   GoldenSeat.h  
+   SeatFactory.hpp
+   Seat.h
 )
 
 add_executable(app main.cpp)

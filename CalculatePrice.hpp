@@ -2,6 +2,7 @@
 #define CALCULATE_PRICE_H
 
 #include "Movie.hpp"
+#include "SeatFactory.hpp"
 
 /****** helpers ********/
 const vector<unsigned int> m_seatPrice = {60, 90, 90, 130, 130, 90, 90, 60};
@@ -36,12 +37,17 @@ public:
                           HallE _hall
                         ) 
     {
+        /*
         return c_DayPrice.at(_showTime.m_movieDay)  // Use 'at' for safety in case of invalid key access  
          + c_TimePrice.at(_showTime.m_time)  
          + c_HallPrice.at(_hall)   
          + m_seatPrice[_seatNumber.second]; 
-        
-        return 50;
+        */
+
+        return c_DayPrice.at(_showTime.m_movieDay)  // Use 'at' for safety in case of invalid key access  
+        + c_TimePrice.at(_showTime.m_time)  
+        + c_HallPrice.at(_hall)   
+        + SeatFactory::createSeat(_seatNumber)->GetPrice(); 
     }
 };
 
