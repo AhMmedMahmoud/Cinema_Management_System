@@ -1,3 +1,6 @@
+#ifndef REGULAR_USER_H
+#define REGULAR_USER_H
+
 #include "User.hpp"
 #include "Ticket.hpp"
 #include "PaymentMethod.hpp"
@@ -19,3 +22,5 @@ public:
         payment->pay(ticket);
     }
 };
+
+#endif

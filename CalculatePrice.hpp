@@ -1,3 +1,6 @@
+#ifndef CALCULATE_PRICE_H
+#define CALCULATE_PRICE_H
+
 #include "Movie.hpp"
 
 /****** helpers ********/
@@ -41,3 +44,5 @@ public:
         return 50;
     }
 };
+
+#endif

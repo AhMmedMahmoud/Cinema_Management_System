@@ -1,3 +1,6 @@
+#ifndef MOVIES_VIEWER_H
+#define MOVIES_VIEWER_H
+
 #include "Cinema.hpp"
 
 class MoviesViewer
@@ -10,3 +13,5 @@ public:
         }
     }
 };
+
+#endif

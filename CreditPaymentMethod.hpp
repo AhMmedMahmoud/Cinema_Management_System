@@ -1,3 +1,6 @@
+#ifndef CREDIT_PAYMENT_METHOD_H
+#define CREDIT_PAYMENT_METHOD_H
+
 #include "Ticket.hpp"
 #include "PaymentMethod.hpp"
 
@@ -8,3 +11,5 @@ public:
         // logic to credit payment method
     }
 };
+
+#endif

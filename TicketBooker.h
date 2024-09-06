@@ -1,3 +1,6 @@
+#ifndef TICKET_BOOKER_H
+#define TICKET_BOOKER_H
+
 #include "Ticket.hpp"
 #include "Cinema.hpp"
 #include "MoviesSearcher.hpp"
@@ -23,3 +26,5 @@ public:
             return Ticket();
     }
 };
+
+#endif

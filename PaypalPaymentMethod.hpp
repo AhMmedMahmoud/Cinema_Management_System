@@ -1,3 +1,6 @@
+#ifndef PAYPAL_PAYMENT_METHOD_H
+#define PAYPAL_PAYMENT_METHOD_H
+
 #include "Ticket.hpp"
 #include "PaymentMethod.hpp"
 
@@ -8,3 +11,5 @@ public:
         // logic to paypal payment method
     }
 };
+
+#endif

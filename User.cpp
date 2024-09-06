@@ -1,6 +1,3 @@
-#ifndef USER_H
-#define USER_H
-
 #include "User.hpp"
 
 /***** constructor *****/
@@ -15,5 +12,3 @@ void CustomerC::SetPhoneNum(uint8_t phoneNum) { m_phoneNum = phoneNum; }
 /******** getters ******/
 const string& CustomerC::GetMail() const { return m_mail; }
 const uint8_t& CustomerC::GetPhoneNum() const { return m_phoneNum; } 
-
-#endif
