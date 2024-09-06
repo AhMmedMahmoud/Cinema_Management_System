@@ -2,7 +2,7 @@
 # Contributors
 - Ahmed Mahmoud Mohamed Ibrahim (Email: ahmed.mahmoud2322002@gmail.com)
 - Abdel Magid Mohamed (Email: abdelmagidmohamed89@yahoo.com)
-- Amr Atef (Email: )
+- Amr Atef (Email: amratef201718@gmail.com)
 - Mohammed Mohammed Farouk (Email: mohammed84farouk@gmail.com)
 # build instructions
 ```cmake
