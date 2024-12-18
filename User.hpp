@@ -5,6 +5,7 @@
 #include <string>
 #include <vector>
 #include "Movie.hpp"
+#include <cstdint>
 
 using namespace std;
 
